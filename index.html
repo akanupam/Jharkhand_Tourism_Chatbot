@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot Widget</title>
+  <style>
+    /* Chatbot Button */
+    #chatbot-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #4CAF50;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    #chatbot-btn img {
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Chatbot Window */
+    #chatbot-window {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 600px;
+      height: 500px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 1000;
+    }
+
+    #chat-header {
+      background: #4CAF50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    #chat-messages {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+      font-size: 14px;
+    }
+
+    .message {
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 6px;
+      max-width: 80%;
+      clear: both;
+    }
+
+    .user-message {
+      background: #DCF8C6;
+      float: right;
+    }
+
+    .bot-message {
+      background: #f1f1f1;
+      float: left;
+    }
+
+    #chat-input {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+
+    #chat-input input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      outline: none;
+    }
+
+    #chat-input button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    #chat-input button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>Homepage content goes here...</p>
+
+  <!-- Chatbot Floating Button -->
+  <div id="chatbot-btn">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/chat.png" alt="Chatbot">
+  </div>
+
+  <!-- Chatbot Window -->
+  <div id="chatbot-window">
+    <div id="chat-header">Chat with Bot</div>
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" id="user-input" placeholder="Type a message...">
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script>
+  const chatbotBtn = document.getElementById("chatbot-btn");
+  const chatbotWindow = document.getElementById("chatbot-window");
+  const sendBtn = document.getElementById("send-btn");
+  const userInput = document.getElementById("user-input");
+  const chatMessages = document.getElementById("chat-messages");
+
+  const API_URL = "https://animated-bavarois-f16cbe.netlify.app/api/chat"; 
+  // Replace with your RAG backend endpoint
+
+  // Toggle chatbot window
+  chatbotBtn.addEventListener("click", () => {
+    chatbotWindow.style.display =
+      chatbotWindow.style.display === "flex" ? "none" : "flex";
+  });
+
+  function addMessage(message, sender) {
+    const msgDiv = document.createElement("div");
+    msgDiv.classList.add("message", sender === "user" ? "user-message" : "bot-message");
+    msgDiv.textContent = message;
+    chatMessages.appendChild(msgDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  async function sendMessage() {
+    const message = userInput.value.trim();
+    if (!message) return;
+
+    addMessage(message, "user");
+    userInput.value = "";
+
+    // Show "typing..."
+    const typingMsg = document.createElement("div");
+    typingMsg.classList.add("message", "bot-message");
+    typingMsg.textContent = "Bot is typing...";
+    chatMessages.appendChild(typingMsg);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+    try {
+      const response = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message })
+      });
+
+      const data = await response.json();
+      typingMsg.remove(); // remove typing message
+
+      addMessage(data.reply, "bot"); // assuming API returns { reply: "..." }
+    } catch (err) {
+      typingMsg.remove();
+      addMessage("⚠️ Error: Could not reach server.", "bot");
+      console.error(err);
+    }
+  }
+
+  sendBtn.addEventListener("click", sendMessage);
+  userInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") sendMessage();
+  });
+</script>
+
+</body>
+</html>
