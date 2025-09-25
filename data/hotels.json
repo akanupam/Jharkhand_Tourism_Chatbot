@@ -1,0 +1,49 @@
+{
+  "ranchi": {
+    "luxury": [
+      {"name": "Radisson Blu", "price": "₹5000-8000", "area": "Kadru"},
+      {"name": "The Capitol Hill", "price": "₹4000-6000", "area": "Kanke Road"}
+    ],
+    "mid_range": [
+      {"name": "Hotel Arya", "price": "₹2500-3500", "area": "Station Road"},
+      {"name": "Hotel Yuvraj Palace", "price": "₹2000-3000", "area": "Main Road"}
+    ],
+    "budget": [
+      {"name": "Hotel Akash", "price": "₹1000-1500", "area": "Lalpur"},
+      {"name": "OYO Rooms", "price": "₹800-1200", "area": "Multiple locations"}
+    ]
+  },
+  "jamshedpur": {
+    "luxury": [
+      {"name": "The Sonnet", "price": "₹4500-7000", "area": "Bistupur"},
+      {"name": "Ramada", "price": "₹4000-6000", "area": "Bistupur"}
+    ],
+    "mid_range": [
+      {"name": "Ginger Hotel", "price": "₹2200-3200", "area": "Bistupur"},
+      {"name": "Hotel Dayal", "price": "₹1800-2800", "area": "Sakchi"}
+    ],
+    "budget": [
+      {"name": "Hotel Jiva", "price": "₹900-1400", "area": "Sakchi"},
+      {"name": "Guest Houses", "price": "₹600-1000", "area": "Various"}
+    ]
+  },
+  "deoghar": {
+    "luxury": [
+      {"name": "Hotel Mahadev Palace", "price": "₹3000-4500", "area": "Station Road"}
+    ],
+    "mid_range": [
+      {"name": "Hotel Rajkamal", "price": "₹1500-2500", "area": "Tower Chowk"},
+      {"name": "Hotel Ashoka Grand", "price": "₹1800-2800", "area": "Barmasia"}
+    ],
+    "budget": [
+      {"name": "Dharamshala", "price": "₹300-800", "area": "Near Temple"},
+      {"name": "Guest Houses", "price": "₹500-1000", "area": "Various"}
+    ]
+  },
+  "netarhat": {
+    "all": [
+      {"name": "Forest Rest House", "price": "₹1500-2500", "note": "Book via Forest Dept"},
+      {"name": "Private Cottages", "price": "₹2000-3500", "note": "Limited options"}
+    ]
+  }
+}

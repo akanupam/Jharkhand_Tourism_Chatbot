@@ -1,0 +1,27 @@
+itenary test:
+"plan me a trip to ranchi"
+"where to stay in ranchi"
+"make an itinerary for 3 days in jharkhand"
+
+
+Area test:
+"What romantic places are near Ranchi for couples?"
+"I have 3 hours in Jamshedpur, what can I see?"
+"Kid-friendly spots around Deoghar"
+"Nature spots within 30 minutes of Ranchi"
+"I'm a photographer, suggest scenic places near Jamshedpur"
+
+
+Route planner:
+"give me direction to reach hazaribagh from deoghar"
+
+Hotel suggestions: 
+"Family hotels near Betla National Park"
+
+Helpline suggest:
+"Medical emergency contacts"
+
+festival info:
+"Upcoming festivals in Jharkhand"
+"When is Sarhul festival?"
+"Tribal festivals this month"

@@ -1,0 +1,53 @@
+{
+  "major_routes": {
+    "ranchi_to_jamshedpur": {
+      "distance": "130 km",
+      "duration": "3-4 hours",
+      "via": "NH-33 (Ranchi-Jamshedpur Highway)",
+      "modes": ["bus", "taxi", "train"],
+      "landmarks": ["Bundu", "Tamar", "Chandil", "Gamharia"],
+      "road_condition": "Good, 4-lane highway mostly",
+      "tolls": "₹60-80 approximately"
+    },
+    "ranchi_to_deoghar": {
+      "distance": "250 km",
+      "duration": "6-7 hours",
+      "via": "NH-33 and NH-114A via Hazaribagh",
+      "modes": ["bus", "taxi", "train"],
+      "landmarks": ["Ramgarh", "Hazaribagh", "Giridih"],
+      "road_condition": "Good till Hazaribagh, average afterwards",
+      "tolls": "₹120-150 approximately"
+    },
+    "ranchi_to_netarhat": {
+      "distance": "150 km",
+      "duration": "4-5 hours",
+      "via": "Ranchi-Lohardaga-Netarhat Road",
+      "modes": ["taxi", "bus"],
+      "landmarks": ["Kanke", "Lohardaga", "Ghaghra Falls"],
+      "road_condition": "Good till Lohardaga, hilly roads after",
+      "tolls": "Minimal"
+    },
+    "ranchi_to_betla": {
+      "distance": "170 km",
+      "duration": "4-5 hours",
+      "via": "NH-75 via Lohardaga",
+      "modes": ["taxi", "bus"],
+      "landmarks": ["Lohardaga", "Latehar"],
+      "road_condition": "Decent, some rough patches",
+      "tolls": "₹50-70"
+    }
+  },
+  "transport_info": {
+    "bus": {
+      "operators": [
+        "Jharkhand State Road Transport Corporation (JSRTC)",
+        "Private: Shivam Travels, Raja Travels, Kumar Travels"
+      ],
+      "major_terminals": {
+        "ranchi": "Birsa Munda Bus Terminal, Khadgara Bus Stand",
+        "jamshedpur": "Mango Bus Stand, Sakchi Bus Terminal",
+        "deoghar": "Deoghar Bus Stand, Tower Chowk"
+      }
+    }
+  }
+}

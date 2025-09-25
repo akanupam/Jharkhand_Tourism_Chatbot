@@ -1,0 +1,131 @@
+{
+  "major_cities": {
+    "ranchi": {
+      "coordinates": [23.3441, 85.3096],
+      "nearby_attractions": [
+        {
+          "name": "Hundru Falls",
+          "distance": "45 km",
+          "time": "1.5 hours",
+          "type": "waterfall",
+          "description": "98m high waterfall, spectacular after monsoon"
+        },
+        {
+          "name": "Jonha Falls",
+          "distance": "40 km",
+          "time": "1.5 hours",
+          "type": "waterfall",
+          "description": "Also called Gautamdhara, Buddhist monastery nearby"
+        },
+        {
+          "name": "Dassam Falls",
+          "distance": "34 km",
+          "time": "1 hour",
+          "type": "waterfall",
+          "description": "10m high cascade, popular picnic spot"
+        },
+        {
+          "name": "Rock Garden",
+          "distance": "4 km",
+          "time": "15 minutes",
+          "type": "park",
+          "description": "Sculptures from rock, great for evening walks"
+        },
+        {
+          "name": "Tagore Hill",
+          "distance": "3 km",
+          "time": "10 minutes",
+          "type": "viewpoint",
+          "description": "300 steps climb, panoramic city view at sunset"
+        },
+        {
+          "name": "Pahari Mandir",
+          "distance": "2 km",
+          "time": "10 minutes",
+          "type": "temple",
+          "description": "Shiva temple on hilltop, 468 steps, city views"
+        },
+        {
+          "name": "Birsa Zoological Park",
+          "distance": "16 km",
+          "time": "30 minutes",
+          "type": "wildlife",
+          "description": "104 hectares zoo with diverse wildlife"
+        },
+        {
+          "name": "Ranchi Lake",
+          "distance": "0 km",
+          "time": "In city",
+          "type": "lake",
+          "description": "Artificial lake, boating available"
+        }
+      ]
+    },
+    "jamshedpur": {
+      "coordinates": [22.8046, 86.2029],
+      "nearby_attractions": [
+        {
+          "name": "Dalma Wildlife Sanctuary",
+          "distance": "30 km",
+          "time": "1 hour",
+          "type": "wildlife",
+          "description": "Elephant habitat, trekking trails, Dalma Hills"
+        },
+        {
+          "name": "Dimna Lake",
+          "distance": "13 km",
+          "time": "30 minutes",
+          "type": "lake",
+          "description": "Artificial lake, boating, water sports"
+        },
+        {
+          "name": "Jubilee Park",
+          "distance": "0 km",
+          "time": "In city",
+          "type": "park",
+          "description": "Rose garden, fountains, zoo, Tata Steel gift"
+        },
+        {
+          "name": "Hudco Lake",
+          "distance": "5 km",
+          "time": "15 minutes",
+          "type": "lake",
+          "description": "Serene lake, morning walks, bird watching"
+        },
+        {
+          "name": "Bhuvaneshwari Temple",
+          "distance": "8 km",
+          "time": "20 minutes",
+          "type": "temple",
+          "description": "Hilltop temple, peaceful atmosphere"
+        }
+      ]
+    },
+    "deoghar": {
+      "coordinates": [24.4852, 86.6948],
+      "nearby_attractions": [
+        {
+          "name": "Baidyanath Temple",
+          "distance": "0 km",
+          "time": "In city",
+          "type": "temple",
+          "description": "One of 12 Jyotirlingas, major pilgrimage site"
+        },
+        {
+          "name": "Naulakha Temple",
+          "distance": "1.5 km",
+          "time": "5 minutes",
+          "type": "temple",
+          "description": "146 feet high, similar to Belur Math architecture"
+        },
+        {
+          "name": "Trikuta Parvata",
+          "distance": "16 km",
+          "time": "45 minutes",
+          "type": "hill",
+          "description": "Ropeway available, three peaks, scenic views"
+        }
+      ]
+    }
+  }
+}

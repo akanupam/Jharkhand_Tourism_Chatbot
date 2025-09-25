@@ -1,0 +1,29 @@
+# Create .gitignore file
+echo "venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".env" >> .gitignore
+echo "temp_github_file.pdf" >> .gitignore
+echo ".DS_Store" >> .gitignore
+
+# Ignore Python virtual environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+
+# VS Code / PyCharm / IDE junk
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+.temp*
+*.log

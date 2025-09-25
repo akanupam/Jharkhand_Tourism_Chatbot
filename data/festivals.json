@@ -1,0 +1,79 @@
+{
+  "major_festivals": {
+    "Sarhul": {
+      "time": "March-April (Spring)",
+      "duration": "3 days",
+      "type": "Tribal New Year & Spring Festival",
+      "significance": "Worship of Sal trees and nature",
+      "locations": ["Ranchi", "Khunti", "Gumla", "Simdega"],
+      "highlights": ["Sal flower offerings", "Traditional Chhau dance", "Folk songs", "Community feast"],
+      "best_places": ["Morabadi Ground Ranchi", "Tribal villages"],
+      "visitor_tips": "Wear traditional clothes to blend in"
+    },
+    "Karma": {
+      "time": "August-September (11th day of Bhadrapada)",
+      "duration": "1 day",
+      "type": "Harvest Festival",
+      "significance": "Worship of Karma tree for good harvest",
+      "locations": ["Throughout Jharkhand"],
+      "highlights": ["Karma tree planting", "Night-long dancing", "Traditional songs"],
+      "best_places": ["Rural areas", "Ranchi suburbs"],
+      "visitor_tips": "Join village celebrations for authenticity"
+    },
+    "Tusu": {
+      "time": "January (Makar Sankranti)",
+      "duration": "1 month preparation",
+      "type": "Harvest Festival",
+      "significance": "Celebrating harvest with folk songs",
+      "locations": ["Jharkhand-Bengal border", "Dhanbad", "Bokaro"],
+      "highlights": ["Tusu songs", "Idol immersion", "Folk competitions"],
+      "visitor_tips": "Listen to melodious Tusu songs in villages"
+    },
+    "Chhath": {
+      "time": "October-November (6 days after Diwali)",
+      "duration": "4 days",
+      "type": "Sun worship festival",
+      "significance": "Worship of Sun god for prosperity",
+      "locations": ["All major cities", "River banks"],
+      "highlights": ["River ghat prayers", "Sunrise worship", "Traditional songs"],
+      "best_places": ["Ranchi Lake", "Dimna Lake", "River ghats"],
+      "visitor_tips": "Visit ghats during evening arghya"
+    },
+    "Jani Shikar": {
+      "time": "Once in 12 years",
+      "type": "Traditional hunting festival",
+      "locations": ["Dalma Hills"],
+      "significance": "Ancient tribal tradition"
+    }
+  },
+  "cultural_events": {
+    "Jharkhand Tourism Festival": {
+      "time": "November",
+      "duration": "3-5 days",
+      "location": "Ranchi",
+      "highlights": ["Cultural programs", "Food stalls", "Handicrafts"]
+    },
+    "Tribal Dance Festival": {
+      "time": "December",
+      "location": "Various venues",
+      "highlights": ["Chhau dance", "Paika dance", "Mundari dance"]
+    },
+    "Netarhat Sunrise Festival": {
+      "time": "Throughout year",
+      "location": "Netarhat",
+      "highlights": ["Sunrise viewing", "Nature walks"]
+    }
+  },
+  "religious_events": {
+    "Shravan Mela": {
+      "time": "July-August",
+      "location": "Deoghar",
+      "highlights": ["Kanwar yatra", "Temple visits"]
+    },
+    "Rath Yatra": {
+      "time": "June-July",
+      "location": "Ranchi Jagannath Temple",
+      "highlights": ["Chariot procession", "Cultural programs"]
+    }
+  }
+}

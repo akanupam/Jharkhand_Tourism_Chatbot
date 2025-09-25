@@ -1,0 +1,45 @@
+{
+  "emergency": {
+    "Police": "100",
+    "Ambulance": "108", 
+    "Fire": "101",
+    "Women Helpline": "1091",
+    "Child Helpline": "1098",
+    "Anti Corruption": "1064",
+    "Disaster Management": "1070"
+  },
+  "tourism": {
+    "Jharkhand Tourism Helpline": "1800-123-4567",
+    "Tourist Police": "1800-111-363",
+    "Forest Department": "1800-123-5555",
+    "Wildlife SOS": "9871963535"
+  },
+  "transport": {
+    "Highway Emergency": "1033",
+    "Railway Enquiry": "139",
+    "Ranchi Airport": "0651-2511854",
+    "Bus Stand Ranchi": "0651-2482333",
+    "Taxi Union Ranchi": "9431134567"
+  },
+  "medical": {
+    "Medical Emergency": "108",
+    "RIMS Ranchi": "0651-2540629",
+    "TMH Jamshedpur": "0657-2224444",
+    "Sadar Hospital Ranchi": "0651-2212518",
+    "Blood Bank": "104"
+  },
+  "city_specific": {
+    "ranchi": {
+      "City Control Room": "0651-2490119",
+      "Traffic Police": "0651-2482802"
+    },
+    "jamshedpur": {
+      "City Control": "0657-2432100",
+      "Traffic Police": "0657-2223344"
+    },
+    "deoghar": {
+      "City Control": "06432-232100",
+      "Temple Security": "06432-232333"
+    }
+  }
+}

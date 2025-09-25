@@ -1,0 +1,10 @@
+
+CONTEXT:
+- available_places:
+  1) Netarhat - scenic - 156 km from Ranchi - sunrise viewpoint
+  2) Betla NP - wildlife - safari tickets available
+- constraints: days=3, travel_by=car, prefer=nature
+
+
+Top stays in Ranchi:
+  1) Hotel Example Ranchi — 4.2 ⭐ — ₹2000-4000 — Book: https://example.com/hotel1

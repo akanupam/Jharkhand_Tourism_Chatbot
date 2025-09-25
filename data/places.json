@@ -1,0 +1,71 @@
+{
+  "jharkhand_destinations": {
+    "nature_wildlife": [
+      {
+        "name": "Betla National Park",
+        "location": "Latehar District",
+        "best_time": "October to March",
+        "duration": "1-2 days",
+        "highlights": ["Tigers", "Elephants", "Waterfalls", "Fort ruins"],
+        "activities": ["Wildlife safari", "Nature walks", "Bird watching"],
+        "nearby_attractions": ["Netarhat", "Lodh Falls"]
+      },
+      {
+        "name": "Dalma Wildlife Sanctuary",
+        "location": "Near Jamshedpur",
+        "best_time": "November to March",
+        "duration": "1 day",
+        "highlights": ["Elephant habitat", "Trekking trails", "Dalma Hills"],
+        "activities": ["Trekking", "Wildlife spotting", "Photography"]
+      }
+    ],
+    "waterfalls": [
+      {
+        "name": "Hundru Falls",
+        "location": "Ranchi",
+        "best_time": "September to February",
+        "duration": "Half day",
+        "height": "98 meters",
+        "highlights": ["Scenic beauty", "Picnic spot"],
+        "distance_from_ranchi": "45 km"
+      },
+      {
+        "name": "Jonha Falls",
+        "location": "Near Ranchi",
+        "best_time": "July to January",
+        "duration": "Half day",
+        "height": "43 meters",
+        "highlights": ["Buddhist monastery nearby", "722 steps"],
+        "distance_from_ranchi": "40 km"
+      }
+    ],
+    "religious_sites": [
+      {
+        "name": "Baidyanath Dham",
+        "location": "Deoghar",
+        "significance": "One of 12 Jyotirlingas",
+        "best_time": "Year-round, avoid Shravan month crowds",
+        "duration": "1 day",
+        "nearby": ["Naulakha Temple", "Basukinath Temple"]
+      },
+      {
+        "name": "Jagannath Temple",
+        "location": "Ranchi",
+        "significance": "Replica of Puri Jagannath Temple",
+        "best_time": "During Rath Yatra",
+        "duration": "2-3 hours"
+      }
+    ],
+    "hill_stations": [
+      {
+        "name": "Netarhat",
+        "location": "Latehar District",
+        "altitude": "1071 meters",
+        "best_time": "October to March",
+        "duration": "2 days",
+        "highlights": ["Sunrise point", "Sunset point", "Pine forests"],
+        "temperature": "10-25°C in winter"
+      }
+    ]
+  }
+}
